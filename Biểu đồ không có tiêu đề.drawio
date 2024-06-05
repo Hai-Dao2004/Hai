@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:55:09.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" version="24.4.13" etag="FvUS1eTfyUoVvJYsoHJu" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T09:31:26.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="EwOYd4QVd5WTgfiDaqPX" version="24.4.13" type="github">
   <diagram name="Trang-1" id="HEfZXSXI9tb1EYUymuIW">
-    <mxGraphModel>
+    <mxGraphModel dx="2344" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Phát hiện theo dõi và đếm số lượng phương tiện trên cao tốc&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="50" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-4" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;Theo dõi phương tiện&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;RyFkc46oZx27o2wCRMn2&quot;&gt;Input: Video / Frame ảnh của video&lt;br&gt;Output:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ID theo dõi của phương tiện, Tọa độ(bounding box) của từng phương tiện&lt;br&gt;trong từng frame&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: initial;&quot;&gt;&lt;font size=&quot;3&quot;&gt;và quỹ đạo di chuyển&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-size: 15pt; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="220" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-5" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;Phát hiện phương tiện&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot; face=&quot;QndYAkQ0IjWjSOeuY6dr&quot;&gt;Input : Video / Frame ảnh của video&lt;br&gt;Output: Thông tin loại phương tiện(xe máy, xe tải, xa khách,...)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="220" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uTrTwVoFMtSsLoWnPRMv-6" target="uTrTwVoFMtSsLoWnPRMv-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-6" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;Đếm số lượng phương tiện&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial; line-height: 107%;&quot;&gt;&lt;font size=&quot;3&quot; face=&quot;Times New Roman&quot;&gt;Input: Video/ Frame ảnh của video&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: medium;&quot;&gt;Output: Số lượng phương tiện được đếm trên từng frame&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: medium;&quot;&gt;và thời gian mà số lượng phương tiện được đếm&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="200" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uTrTwVoFMtSsLoWnPRMv-1" target="uTrTwVoFMtSsLoWnPRMv-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="310" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.46;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uTrTwVoFMtSsLoWnPRMv-1" target="uTrTwVoFMtSsLoWnPRMv-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="200" as="sourcePoint" />
+            <mxPoint x="180" y="200" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.552;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="uTrTwVoFMtSsLoWnPRMv-1" target="uTrTwVoFMtSsLoWnPRMv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="160" as="sourcePoint" />
+            <mxPoint x="160" y="450" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-15" value="Trích xuất các frame ảnh từ video&lt;div&gt;&lt;br&gt;Input: Video&lt;/div&gt;&lt;div&gt;&lt;br&gt;Output: Các frame ảnh tĩnh&lt;div&gt;&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="530" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-16" value="Xử lí hình ảnh&lt;div&gt;&lt;br&gt;Input: Các frame ảnh tĩnh&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: Các frame ảnh đã xử lí ( độ sáng, tương phản, đọ nhiễu,..)&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="520" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-17" value="Phát hiện phương tiện&lt;br&gt;&lt;br&gt;&lt;div&gt;Input: Các frame ảnh đã xử lí&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output:Bounding box đại diện cho vị trí phương tiện&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="524.38" width="160" height="131.25" as="geometry" />
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-18" value="Phân loại phương tiện&lt;div&gt;&lt;br&gt;Input: Các bounding box đại diện cho phương tiện&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;Output: Các bounding box kèm nhãn của phương tiện&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="520" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-19" value="Theo dõi phương tiện qua các frame&lt;br&gt;&lt;br&gt;&lt;div&gt;Input: Các bounding box kèm nhãn&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output: ID duy nhất gán cho từng phương tiện và quỹ đạo di chuyển&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="455" y="520" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uTrTwVoFMtSsLoWnPRMv-5" target="uTrTwVoFMtSsLoWnPRMv-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="460" as="sourcePoint" />
+            <mxPoint x="-40" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uTrTwVoFMtSsLoWnPRMv-5" target="uTrTwVoFMtSsLoWnPRMv-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="460" as="sourcePoint" />
+            <mxPoint x="-40" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uTrTwVoFMtSsLoWnPRMv-5" target="uTrTwVoFMtSsLoWnPRMv-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="460" as="sourcePoint" />
+            <mxPoint x="-40" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uTrTwVoFMtSsLoWnPRMv-5" target="uTrTwVoFMtSsLoWnPRMv-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-90" y="460" as="sourcePoint" />
+            <mxPoint x="-40" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uTrTwVoFMtSsLoWnPRMv-4" target="uTrTwVoFMtSsLoWnPRMv-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="460" as="sourcePoint" />
+            <mxPoint x="640" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uTrTwVoFMtSsLoWnPRMv-25" value="Đếm số lượng phương tiện qua các frame&lt;div&gt;&lt;br&gt;Input: Các bounding box đại diện cho phương tiện&lt;/div&gt;&lt;div&gt;&lt;br&gt;Output: Số lượng phương tiện trong mỗi frame&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="907.5" y="515.63" width="195" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
